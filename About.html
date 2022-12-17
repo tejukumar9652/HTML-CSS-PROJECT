@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>about in the project</title>
+</head>
+
+<body>
+  <style>
+    header {
+      display: flex;
+      width: 100%;
+      height: 130px;
+      border: 1px solid ghostwhite;
+      background-color: black;
+    }
+
+    .c1 {
+      width: 600px;
+      height: 100px;
+      margin-left: 10px;
+    }
+
+    h1 {
+      color: orange;
+    }
+
+    .sp {
+      color: blue;
+    }
+
+    nav {
+      width: 100%;
+      height: 100px;
+      border: 3px solid orange;
+      background-color: ghostwhite;
+      display: flex;
+    }
+
+    .subjects {
+      margin-left: 100px;
+      font-family: 'Arial Narrow Bold';
+      margin-top: 25px;
+      color: orange;
+    }
+
+    .subjects:hover {
+      color: blue;
+    }
+
+    ul {
+      display: flex;
+    }
+
+    li {
+      list-style-type: none;
+      margin-top: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      margin-left: 50px;
+      text-transform: uppercase;
+      font-family: 'Arial Narrow Bold';
+      color: orange;
+    }
+
+    a:hover {
+      color: blue;
+    }
+
+    .joinnow {
+      width: 100px;
+      height: 40px;
+      margin-left: 100px;
+      margin-top: 15px;
+      border-radius: 10px;
+      border: 1px solid orange;
+      background-color: orange;
+    }
+
+    .joinnow:hover {
+      color: aqua;
+      background-color: antiquewhite;
+    }
+
+    .carousel1 {
+      width: 100%;
+      height: 600px;
+      border: 2px solid red;
+      background-image: url(./Images/course-3.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+    }
+
+    .cp {
+      position: absolute;
+      margin-left: 200px;
+      margin-top: 200px;
+      font-size: 70px;
+      font-weight: bold;
+      font-family: Arial;
+      color: azure;
+    }
+
+    .cp1 {
+      margin-left: 300px;
+      margin-top: 300px;
+      color: white;
+    }
+
+    .b1 {
+      width: 100%;
+      height: 800px;
+      border: 1px solid red;
+      position: relative;
+    }
+
+    .blog1 {
+      width: 600px;
+      height: 400px;
+      margin-top: 200px;
+      margin-left: 100px;
+      position: absolute;
+      background-image: url(./Images/blog-1.jpg);
+      border-radius: 10px;
+    }
+
+    .content1 {
+      width: 500px;
+      height: 350px;
+      margin-left: 750px;
+      margin-top: 200px;
+    }
+
+    .au {
+      color: orange;
+    }
+
+    .ai {
+      color: blue;
+    }
+
+    .LM {
+      width: 130px;
+      height: 40px;
+      font-size: 15px;
+      margin-top: 10px;
+      font-weight: bold;
+      border-radius: 10px;
+      background-color: orange;
+      border: 1px solid orange;
+    }
+
+    .b2 {
+      width: 100%;
+      height: 800px;
+      border: 1px solid red;
+      position: relative;
+      background-image: url(./Images/course-3.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .nac {
+      margin-left: 200px;
+      margin-top: 200px;
+      position: absolute;
+      width: 600px;
+      height: 400px;
+    }
+
+    .nc {
+      color: orange;
+    }
+
+    .ofns {
+      color: white;
+    }
+
+    .lif {
+      width: 400px;
+      height: 400px;
+      position: absolute;
+      margin-top: 200px;
+      margin-left: 800px;
+      background-color: orange;
+      border-radius: 10px;
+    }
+
+    .sup {
+      width: 400px;
+      height: 40px;
+      margin-left: 80px;
+      color: brown;
+      padding-top: 10px;
+      font-size: 40px;
+    }
+
+    .yourname,
+    .email {
+      padding: 10px;
+      width: 300px;
+      margin-left: 20px;
+      border-radius: 10px;
+    }
+
+    select {
+      width: 323px;
+      height: 40px;
+      margin-left: 20px;
+      border-radius: 10px;
+    }
+
+    .btn2 {
+      width: 323px;
+      height: 40px;
+      font-size: 20px;
+      margin-top: 50px;
+      margin-left: 20px;
+      border-radius: 10px;
+      background-color: darkblue;
+      color: white;
+    }
+
+    .btn2:hover {
+      color: yellow;
+    }
+
+    .b3 {
+      width: 100%;
+      height: 800px;
+      /* border: 1px solid blue; */
+      padding-top: 130px;
+    }
+
+    .b31 {
+      margin-left: 600px;
+      color: orange;
+    }
+
+    .b32 {
+      color: black;
+      margin-left: 500px;
+    }
+
+    .b33 {
+      width: 600px;
+      height: 120px;
+      margin-left: 400px;
+    }
+
+    .b34image {
+      width: 200px;
+      height: 200px;
+      margin-left: 550px;
+      border-radius: 100px;
+    }
+
+    .b35 {
+      margin-left: 630px;
+      color: orange;
+    }
+
+    .b36 {
+      margin-left: 600px;
+      color: orange;
+    }
+
+    .b37 {
+      margin-left: 610px;
+    }
+
+    footer {
+      width: 100%;
+      height: 400px;
+      background-color: rgba(8, 50, 175, 0.795);
+    }
+
+    .f1 {
+      display: flex;
+      margin-left: 300px;
+    }
+
+    li {
+      color: white;
+      font-size: 20px;
+
+    }
+
+    P {
+      color: white;
+      font-size: 20px;
+      margin: 20px;
+    }
+
+    .nl,
+    .git,
+    .oc {
+      width: 350px;
+      height: 400px;
+    }
+
+    .srch {
+      width: 200px;
+      height: 40px;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border: 1px solid white;
+    }
+
+    .btn {
+      width: 50px;
+      height: 40px;
+      background-color: orange;
+      border: 1px solid orange;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    .icon a {
+      width: 400px;
+      height: 500px;
+      margin: 10px;
+    }
+  </style>
+  </head>
+
+  <body>
+    <header>
+      <img src="./Images/AIT-white.jpg" alt="Ait logo" />
+      <div class="c1">
+        <h1 class="h1">Our Office</h1>
+        <span class="sp">#63,1st Floor,
+          16th Main,
+          8 Cross BTM,
+          1st Stage BTM Layout,
+          Bengaluru,
+          Karnataka 560029</span>
+      </div>
+      <div class="c1" id="email">
+        <h1 class="h1">Email us</h1>
+        <spann class="sp">info@gmail.com</span>
+      </div>
+      <div class="c1">
+        <h1 class="h1">Call Us</h1>
+        <spann class="sp">India : + 91-6304281243</span>
+      </div>
+    </header>
+    <nav>
+      <h3 class="subjects">SUBJECTS </h3>
+      <ul>
+        <li><a href="AchieversItProject.html">home</a></li>
+        <li><a href="About.html">about</a></li>
+        <li><a href="courses1.html">courses</a></li>
+        <li><a href="#">blog</a></li>
+        <li><a href="teachers.html">teachers</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+      <button class="joinnow">JOIN NOW</button>
+    </nav>
+    <div class="carousel1">
+      <h1 class="cp">ABOUT PAGE</h1>
+      <h2 class="cp1">HOME>>ABOUT</h2>
+    </div>
+    <div class="b1">
+      <div class="blog1"></div>
+      <div class="content1">
+        <h2 class="au"> ABOUT US</h2>
+        <h1>innovative way to learn</h1>
+        <h3 class="ai">Achievers IT is the best place in Bangalore to learn web development. After completing this
+          course in our institution you can build the most interactive and innovative website. We will provide you
+          interactive and quality pieces of training with 100% placements.Achievers IT is the best place in Bangalore to
+          learn web development. After completing this course in our institution you can build the most interactive and
+          innovative website. We will provide you interactive and quality pieces of training with 100% placements.</h3>
+        <button class="LM">Learn More</button>
+      </div>
+    </div>
+    <div class="b2">
+      <div class="nac">
+        <h2 class="nc">NEED ANY COURSES</h2>
+        <h1 class="ofns">30% Off For New Students</h1>
+        <h2 class="ofns">more people train with achievers it because of our commitment to quality, placement support
+          ,real timing training.</h2>
+        <h2 class="ofns"> 90 hours of training</h2>
+        <h2 class="ofns">200 hours of lab practical sessions under expert's mentorship</h2>
+        <h2 class="ofns">industry experts & certified trainers</h2>
+        <h2 class="ofns">100% placement support</h2>
+      </div>
+      <div class="lif">
+        <span class="sup">Sign Up Now</span><br><br>
+        <input type="text" name="text" placeholder="your name" class="yourname"><br /><br />
+        <input type="email" name="email" id="email" placeholder="your email" class="email"><br /><br />
+        <select name="course list" id="courses">
+          <option value="select a course">select a course</option>
+          <option value="frontend developer">frontend developer</option>
+          <option value="backend developer">backend developer</option>
+          <option value="react developer">react developer</option>
+        </select>
+        <button class="btn2">sign up now</button>
+      </div>
+    </div>
+    <div class="b3">
+      <h3 class="b31">TESTIMONIAL</h3>
+      <h1 class="b32">What Say Our Students</h1>
+      <h3 class="b33">Achievers IT is the best place in Bangalore to learn web development. After completing this course
+        in our institution you can build the most interactive and innovative website. We will provide you interactive
+        and quality pieces of training with 100% placements. There are huge opportunities available for students who
+        want to work in this field.</h3>
+      <img src="./Images/testimonial-3.jpg" alt="image-for backend developer" class="b34image" />
+      <h3 class="b35">Aravind</h3>
+      <h3 class="b36">Backend Developer</h3>
+      <div class="b37">
+        <input type="radio" name="radio">
+        <input type="radio" name="radio">
+        <input type="radio" name="radio">
+      </div>
+    </div>
+    <footer>
+      <div f-logo>
+        <img src="./Images/AIT-white.jpg" alt="f-logo" />
+      </div>
+      <div class="f1">
+        <div class="git">
+          <h1 class="h1">GET IN TOUCH</h1>
+          <li>#63,1st Floor,
+            16th Main,
+            8 Cross BTM,1st</li>
+          <li>Stage BTM Layout,
+            Bengaluru,
+            Karnataka 560029</li>
+          <li> +91-8431-040-457</li>
+          <li>info@gmail.com</li>
+          <div class="icon">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+          </div>
+        </div>
+
+        <div class="oc">
+          <h1 class="h1">OUR COURSES</h1>
+          <li> Web Design</li>
+          <li> Apps Design</li>
+          <li> Digital Marketing</li>
+          <li> Full Stack Development</li>
+          <li> Search Engine Optimization</li>
+        </div>
+        <div class="nl">
+          <h1 class="h1">NEWS LETTER</h1>
+          <p>We offer a wide array of excellent computer courses combined with ample career guidance by our competent
+            and highly skilled team of teachers and counsellors.</p>
+          <input class="srch" type="search" name="text" placeholder="enter your email">
+          <button class="btn">search</button>
+        </div>
+      </div>
+      <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </footer>
+  </body>
+
+</html>

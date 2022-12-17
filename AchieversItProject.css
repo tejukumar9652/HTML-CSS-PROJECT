@@ -1,0 +1,655 @@
+/* header part css */
+body {
+  margin: auto;
+  padding: auto;
+}
+
+.head{
+  display: flex;
+  width: 100%;
+  height: 170px;
+  border: 1px solid ghostwhite;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.c1 {
+  width: 600px;
+  height: 100px;
+  margin-left: 10px;
+}
+
+.oo,.eu,.cu {
+  color: orange;
+}
+
+.info{
+  color: white;
+}
+/* nav bar css part */
+nav {
+  width: 100%;
+  height: 100px;
+  border: 3px solid orange;
+  background-color: ghostwhite;
+  display: flex;
+}
+
+.subjects {
+  margin-left: 100px;
+  font-family: 'Arial Narrow Bold';
+  margin-top: 25px;
+  color: orangered;
+}
+
+.subjects:hover {
+  color: blue;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 50px;
+  text-transform: uppercase;
+  font-family: 'Arial Narrow Bold';
+  color: orangered;
+}
+
+a:hover {
+  color: blue;
+}
+
+.joinnow {
+  width: 100px;
+  height: 40px;
+  margin-left: 100px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 1px solid orange;
+  background-color: orange;
+}
+
+.joinnow:hover {
+  color: white;
+  background-color: blue;
+}
+/* index css part */
+.indexpage{
+  width: 100%;
+  height: 700px;
+  border: 1px solid aqua;
+  background-image: url(./Images/carousel-1.jpg);
+  background-size: cover;
+  
+}
+.bc{
+  color: white;
+  font-size: 25px;
+  margin-top: 400px;
+  margin-left: 300px;
+}
+.rdc{
+  color: orange;
+  font-size: 70px;
+  margin-left: 300px;
+}
+.teju{
+  margin-left: 300px;
+}
+/* about page css part */
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 50px;
+  text-transform: uppercase;
+  font-family: 'Arial Narrow Bold';
+  color: orange;
+}
+
+a:hover {
+  color: blue;
+}
+
+.joinnow {
+  width: 100px;
+  height: 40px;
+  margin-left: 100px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 1px solid orange;
+  background-color: orange;
+}
+
+.joinnow:hover {
+  color: aqua;
+  background-color: antiquewhite;
+}
+
+.carousel1 {
+  width: 100%;
+  height: 600px;
+  border: 2px solid red;
+  background-image: url(./Images/course-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.cp {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 200px;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: Arial;
+  color: azure;
+}
+
+.cp1 {
+  margin-left: 300px;
+  margin-top: 300px;
+  color: white;
+}
+
+.b1 {
+  width: 100%;
+  height: 800px;
+  border: 1px solid red;
+  position: relative;
+}
+
+.blog1 {
+  width: 600px;
+  height: 400px;
+  margin-top: 200px;
+  margin-left: 100px;
+  position: absolute;
+  background-image: url(./Images/blog-1.jpg);
+  border-radius: 10px;
+}
+
+.content1 {
+  width: 500px;
+  height: 350px;
+  margin-left: 750px;
+  margin-top: 200px;
+}
+
+.au {
+  color: orange;
+}
+
+.ai {
+  color: blue;
+}
+
+.LM {
+  width: 130px;
+  height: 40px;
+  font-size: 15px;
+  margin-top: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: orange;
+  border: 1px solid orange;
+}
+
+.b2 {
+  width: 100%;
+  height: 800px;
+  border: 1px solid red;
+  position: relative;
+  background-image: url(./Images/course-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nac {
+  margin-left: 200px;
+  margin-top: 200px;
+  position: absolute;
+  width: 600px;
+  height: 400px;
+}
+
+.nc {
+  color: orange;
+}
+
+.ofns {
+  color: white;
+}
+
+.lif {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 800px;
+  background-color: orange;
+  border-radius: 10px;
+}
+
+.sup {
+  width: 400px;
+  height: 40px;
+  margin-left: 80px;
+  color: brown;
+  padding-top: 10px;
+  font-size: 40px;
+}
+
+.yourname,
+.email {
+  padding: 10px;
+  width: 300px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+select {
+  width: 323px;
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.btn2 {
+  width: 323px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
+}
+
+.btn2:hover {
+  color: yellow;
+}
+
+.b3 {
+  width: 100%;
+  height: 800px;
+  padding-top: 130px;
+}
+
+.b31 {
+  margin-left: 600px;
+  color: orange;
+}
+
+.b32 {
+  color: black;
+  margin-left: 500px;
+}
+
+.b33 {
+  width: 600px;
+  height: 120px;
+  margin-left: 400px;
+}
+
+.b34image {
+  width: 200px;
+  height: 200px;
+  margin-left: 550px;
+  border-radius: 100px;
+}
+
+.b35 {
+  margin-left: 630px;
+  color: orange;
+}
+
+.b36 {
+  margin-left: 600px;
+  color: orange;
+}
+
+.b37 {
+  margin-left: 610px;
+}
+/* courses css part */
+.container-1 {
+  width: 100%;
+  height: 700px;
+  border: 1px solid beige;
+  background-color: beige;
+  border-radius: 10px;
+  padding-top: 150px;
+}
+
+.container1 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  text-align: center;
+}
+
+.course1 {
+  width: 300px;
+  height: 200px;
+  background-image: url(./Images/cat-1.jpg);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.course2 {
+  width: 300px;
+  height: 200px;
+  background-image: url(./Images/cat-2.jpg);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.course3 {
+  width: 300px;
+  height: 200px;
+  background-image: url(./Images/cat-3.jpg);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.course4 {
+  width: 300px;
+  height: 200px;
+  background-image: url(./Images/cat-4.jpg);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.container2 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  text-align: center;
+}
+
+.course5 {
+  width: 300px;
+  height: 200px;
+  background-image: url(./Images/cat-5.jpg);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.course6 {
+  width: 300px;
+  height: 200px;
+  background-image: url(./Images/cat-6.jpg);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.course7 {
+  width: 300px;
+  height: 200px;
+  background-image: url(./Images/cat-7.jpg);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.course8 {
+  width: 300px;
+  height: 200px;
+  background-image: url(./Images/cat-8.jpg);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: white;
+  margin-top: 50px;
+}
+
+span {
+  color: white;
+}
+
+.sub {
+  color: orange;
+  margin-left: 45%;
+}
+
+.tc {
+  color: black;
+  margin: 0px;
+  margin-left: 40%;
+  padding-top: 20px;
+}
+
+.container-2 {
+  width: 100%;
+  height: 1200px;
+  border: 1px solid green;
+
+}
+
+.CARDS {
+  display: flex;
+  padding-top: 100px;
+  padding-left: 150px;
+}
+
+.card-1 {
+  width: 300px;
+  height: 400px;
+  border: 1px solid salmon;
+  background-color: bisque;
+  border-radius: 10px;
+  margin: 20px;
+  box-sizing: border-box;
+
+}
+
+.card1-image img {
+  width: 300px;
+  height: 200px;
+  background-image: url(./Images/course-1.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.stu {
+  float: left;
+  margin-left: 20px;
+}
+
+.time {
+  margin-left: 190px;
+}
+
+.web-design {
+  border-bottom: 1px solid black;
+}
+
+.rating {
+  float: left;
+  margin-left: 20px;
+}
+
+.amount {
+  margin-top: 38px;
+  margin-left: 250px;
+}
+.cards2-line{
+  padding-top: 0px;
+}
+/* teacher part css */
+.container-teach {
+  width: 100%;
+  height: 600px;
+  border: 1px solid red;
+}
+
+.teachers {
+  color: orange;
+  margin-top: 100px;
+  margin-left: 45%;
+}
+
+.mot {
+  color: black;
+  margin-left: 37%;
+}
+
+.parent-cards {
+  display: flex;
+  padding-left: 170px;
+}
+
+.teach-card1 {
+  width: 230px;
+  height: 300px;
+  border: 1px solid bisque;
+  background-color: bisque;
+  border-radius: 10px;
+  margin-left: 20px;
+
+}
+
+.t1-image {
+  width: 230px;
+  height: 190px;
+  background-image: url(./Images/team-1.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.teach-card2 {
+  width: 230px;
+  height: 300px;
+  border: 1px solid bisque;
+  background-color: bisque;
+  border-radius: 10px;
+  margin-left: 20px;
+
+}
+
+.t2-image {
+  width: 230px;
+  height: 190px;
+  background-image: url(./Images/team-2.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.teach-card3 {
+  width: 230px;
+  height: 300px;
+  border: 1px solid bisque;
+  background-color: bisque;
+  border-radius: 10px;
+  margin-left: 20px;
+
+}
+
+.t3-image {
+  width: 230px;
+  height: 190px;
+  background-image: url(./Images/team-3.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.teach-card4 {
+  width: 230px;
+  height: 300px;
+  border: 1px solid bisque;
+  background-color: bisque;
+  border-radius: 10px;
+  margin-left: 20px;
+
+}
+
+.t4-image {
+  width: 230px;
+  height: 190px;
+  background-image: url(./Images/team-4.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.jd {
+  margin-left: 40px;
+}
+
+.wd {
+  margin-left: 43px;
+}
+/* footer css part */
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  opacity: 0.8;
+  margin-TOP: 50PX;
+}
+
+.f1 {
+  display: flex;
+  margin-left: 300px;
+}
+
+li {
+  color: white;
+  font-size: 20px;
+
+}
+
+P {
+  color: white;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.nl,
+.git,
+.oc {
+  width: 350px;
+  height: 400px;
+}
+
+.srch {
+  width: 200px;
+  height: 40px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid white;
+}
+
+.btn {
+  width: 50px;
+  height: 40px;
+  background-color: orange;
+  border: 1px solid orange;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.icon a {
+  width: 400px;
+  height: 500px;
+  margin: 10px;
+}
+.h1{
+  color: orange;
+}

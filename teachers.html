@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEACHERS PAGE IN THE PROJECT</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      margin: auto;
+      padding: auto;
+    }
+
+    header {
+      display: flex;
+      width: 100%;
+      height: 130px;
+      border: 1px solid ghostwhite;
+      background-color: black;
+      opacity: 0.8;
+    }
+
+    .c1 {
+      width: 600px;
+      height: 100px;
+      margin-left: 10px;
+    }
+
+    h1 {
+      color: orange;
+    }
+
+    .sp {
+      color: white;
+    }
+
+    nav {
+      width: 100%;
+      height: 100px;
+      border: 3px solid orange;
+      background-color: ghostwhite;
+      display: flex;
+    }
+
+    .subjects {
+      margin-left: 100px;
+      font-family: 'Arial Narrow Bold';
+      margin-top: 25px;
+      color: orangered;
+    }
+
+    .subjects:hover {
+      color: blue;
+    }
+
+    ul {
+      display: flex;
+    }
+
+    li {
+      list-style-type: none;
+      margin-top: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      margin-left: 50px;
+      text-transform: uppercase;
+      font-family: 'Arial Narrow Bold';
+      color: orangered;
+    }
+
+    a:hover {
+      color: blue;
+    }
+
+    .joinnow {
+      width: 100px;
+      height: 40px;
+      margin-left: 100px;
+      margin-top: 15px;
+      border-radius: 10px;
+      border: 1px solid orange;
+      background-color: orange;
+    }
+
+    .joinnow:hover {
+      color: aqua;
+      background-color: antiquewhite;
+    }
+
+    .carousel1 {
+      width: 100%;
+      height: 600px;
+      border: 2px solid red;
+      background-image: url(https://media.istockphoto.com/id/1193239354/photo/workplace-computer-laptop-and-mobile-phone-on-a-wood-office-desk.jpg?s=612x612&w=0&k=20&c=B6ZYuIbolt9jiXWGQWses8Urg1N9Fa_9Y6yRvo6USb0=);
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+    }
+
+    .cp {
+      position: absolute;
+      margin-left: 200px;
+      margin-top: 200px;
+      font-size: 70px;
+      font-weight: bold;
+      font-family: Arial;
+      color: azure;
+    }
+
+    .cp1 {
+      margin-left: 300px;
+      margin-top: 300px;
+      color: white;
+    }
+
+    /*  */
+    .container-teach {
+      width: 100%;
+      height: 600px;
+      border: 1px solid red;
+    }
+
+    .teachers {
+      color: orange;
+      margin-top: 100px;
+      margin-left: 45%;
+    }
+
+    .mot {
+      color: black;
+      margin-left: 37%;
+    }
+
+    .parent-cards {
+      display: flex;
+      padding-left: 170px;
+    }
+
+    .teach-card1 {
+      width: 230px;
+      height: 300px;
+      border: 1px solid bisque;
+      background-color: bisque;
+      border-radius: 10px;
+      margin-left: 20px;
+
+    }
+
+    .t1-image {
+      width: 230px;
+      height: 190px;
+      background-image: url(./Images/team-1.jpg);
+      background-size: cover;
+      border-radius: 10px;
+    }
+
+    .teach-card2 {
+      width: 230px;
+      height: 300px;
+      border: 1px solid bisque;
+      background-color: bisque;
+      border-radius: 10px;
+      margin-left: 20px;
+
+    }
+
+    .t2-image {
+      width: 230px;
+      height: 190px;
+      background-image: url(./Images/team-2.jpg);
+      background-size: cover;
+      border-radius: 10px;
+    }
+
+    .teach-card3 {
+      width: 230px;
+      height: 300px;
+      border: 1px solid bisque;
+      background-color: bisque;
+      border-radius: 10px;
+      margin-left: 20px;
+
+    }
+
+    .t3-image {
+      width: 230px;
+      height: 190px;
+      background-image: url(./Images/team-3.jpg);
+      background-size: cover;
+      border-radius: 10px;
+    }
+
+    .teach-card4 {
+      width: 230px;
+      height: 300px;
+      border: 1px solid bisque;
+      background-color: bisque;
+      border-radius: 10px;
+      margin-left: 20px;
+
+    }
+
+    .t4-image {
+      width: 230px;
+      height: 190px;
+      background-image: url(./Images/team-4.jpg);
+      background-size: cover;
+      border-radius: 10px;
+    }
+
+    .jd {
+      margin-left: 40px;
+    }
+
+    .wd {
+      margin-left: 43px;
+    }
+
+    /*  */
+    footer {
+      width: 100%;
+      height: 400px;
+      background-color: black;
+      opacity: 0.8;
+
+    }
+
+    .f1 {
+      display: flex;
+      margin-left: 300px;
+    }
+
+    li {
+      color: white;
+      font-size: 20px;
+
+    }
+
+    P {
+      color: white;
+      font-size: 20px;
+      margin: 20px;
+    }
+
+    .nl,
+    .git,
+    .oc {
+      width: 350px;
+      height: 400px;
+    }
+
+    .srch {
+      width: 200px;
+      height: 40px;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border: 1px solid white;
+    }
+
+    .btn {
+      width: 50px;
+      height: 40px;
+      background-color: orange;
+      border: 1px solid orange;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    .icon a {
+      width: 400px;
+      height: 500px;
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="./Images/AIT-white.jpg" alt="Ait logo" />
+    <div class="c1">
+      <h1 class="h1"><i class="fa-solid fa-location-pin"></i>Our Office</h1>
+      <span class="sp">#63,1st Floor,
+        16th Main,
+        8 Cross BTM,
+        1st Stage BTM Layout,
+        Bengaluru,
+        Karnataka 560029</span>
+    </div>
+    <div class="c1" id="email">
+      <h1 class="h1"><i class="fa-regular fa-envelope"></i>Email us</h1>
+      <spann class="sp">info@gmail.com</span>
+    </div>
+    <div class="c1">
+      <h1 class="h1"><i class="fa-solid fa-phone"></i>Call Us</h1>
+      <spann class="sp">India : + 91-6304281243</span>
+    </div>
+  </header>
+  <nav>
+    <h3 class="subjects">SUBJECTS </h3>
+    <ul>
+      <li><a href="AchieversItProject.html">home</a></li>
+      <li><a href="About.html">about</a></li>
+      <li><a href="courses1.html">courses</a></li>
+      <li><a href="#">blog</a></li>
+      <li><a href="teachers.html">teachers</a></li>
+      <li><a href="contact.html">contact</a></li>
+    </ul>
+    <button class="joinnow">JOIN NOW</button>
+  </nav>
+  <div class="carousel1">
+    <h1 class="cp">TEACHERS PAGE</h1>
+    <h2 class="cp1">HOME>>TEACHERSS</h2>
+  </div>
+  <!-- main section -->
+  <div class="container-teach">
+    <h4 class="teachers">TEACHERS</h4>
+    <h1 class="mot">MEET OUR TEACHERS</h1>
+    <div class="parent-cards">
+      <div class="teach-card1">
+        <div class="t1-image"></div>
+        <h2 class="jd">JOHN DOE</h2>
+        <h3 class="wd">Web Designer</h3>
+      </div>
+      <div class="teach-card2">
+        <div class="t2-image"></div>
+        <h2 class="jd">JOHN DOE</h2>
+        <h3 class="wd">Web Designer</h3>
+      </div>
+      <div class="teach-card3">
+        <div class="t3-image"></div>
+        <h2 class="jd">JOHN DOE</h2>
+        <h3 class="wd">Web Designer</h3>
+      </div>
+      <div class="teach-card4">
+        <div class="t4-image"></div>
+        <h2 class="jd">JOHN DOE</h2>
+        <h3 class="wd">Web Designer</h3>
+      </div>
+    </div>
+  </div>
+  <!--  -->
+  <footer>
+    <div f-logo>
+      <img src="./Images/AIT-white.jpg" alt="f-logo" />
+    </div>
+    <div class="f1">
+      <div class="git">
+        <h1 class="h1">GET IN TOUCH</h1>
+        <li>#63,1st Floor,
+          16th Main,
+          8 Cross BTM,1st</li>
+        <li>Stage BTM Layout,
+          Bengaluru,
+          Karnataka 560029</li>
+        <li> +91-8431-040-457</li>
+        <li>info@gmail.com</li>
+        <div class="icon">
+          <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+        </div>
+      </div>
+      <div class="oc">
+        <h1 class="h1">OUR COURSES</h1>
+        <li> Web Design</li>
+        <li> Apps Design</li>
+        <li> Digital Marketing</li>
+        <li> Full Stack Development</li>
+        <li> Search Engine Optimization</li>
+      </div>
+      <div class="nl">
+        <h1 class="h1">NEWS LETTER</h1>
+        <p>We offer a wide array of excellent computer courses combined with ample career guidance by our competent
+          and highly skilled team of teachers and counsellors.</p>
+        <input class="srch" type="search" name="text" placeholder="enter your email">
+        <button class="btn">search</button>
+      </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  </footer>
+</body>
+
+</html>
